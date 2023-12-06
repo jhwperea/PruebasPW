@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="flecha-up" data-name="flecha-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #11D42F;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1"  fill="#11D42F" points="125.0994 21.5 67.0994 111.5 183.0994 111.5 125.0994 21.5"/>
+  <rect class="cls-1" fill="#11D42F" x="101" y="113" width="50" height="123"/>
+</svg>
