@@ -51,23 +51,24 @@ h1{
 	display: flex;
 	}
 
+	.contenedor-caja{
+		animation: 20s slider infinite linear normal ;
+	
+	}
 @keyframes slider {
 
 	from {
 		transform: translateX(0);
 	}
 	to{
-		transform: translateX(-100%);
+		transform: translateX(-50%);
 	}
 	
 }
 
-.contenedor-caja{
-	animation: 20s slider infinite linear alternate ;
 
-}
 
-.contenedor-caja:hover, .contenedor:hover	 {
+.contenedor-caja:hover	 {
 	animation-play-state: paused;
 }
 
