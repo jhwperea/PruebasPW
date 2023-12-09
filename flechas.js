@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 });
 
 function eventos() {
+  
   nieto3.addEventListener('click', visible1);
   nieto4.addEventListener('click', visible2);
   nieto5.addEventListener('click', visible1);
