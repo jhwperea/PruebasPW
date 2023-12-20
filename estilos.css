@@ -47,24 +47,31 @@ h1{
 .contenedor-caja{
 	position: relative;
 	top: 1rem;
-	left: 10rem;
+	left: 1rem;
 	display: flex;
-	}
+}
 
 @keyframes slider {
 
-	from {
+	/* from {
 		transform: translateX(0);
 	}
 	to{
 		transform: translateX(-100%);
-	}
-	
+	} */
+    to {
+        -moz-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
 }
 
 .contenedor-caja{
-	animation: 20s slider infinite linear alternate ;
-
+	/* animation: 20s slider infinite linear alternate ; */
+    display: inline-flex;
+    -moz-animation: slider 10s infinite linear;
+    -webkit-animation: slider 10s infinite linear;
+    animation: slider 10s infinite linear;
 }
 
 .contenedor-caja:hover, .contenedor:hover	 {
@@ -77,8 +84,7 @@ h1{
 	width: 61rem;
 	height: 21rem;
 	border: 0.3rem solid #000;
-	margin:1rem;
-
+	margin: 1rem;
 }
 
 .caja-padre{
