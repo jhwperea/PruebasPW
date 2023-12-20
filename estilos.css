@@ -51,30 +51,24 @@ h1{
 	display: flex;
 }
 
+	.contenedor-caja{
+		animation: 20s slider infinite linear normal ;
+	
+	}
 @keyframes slider {
 
 	/* from {
 		transform: translateX(0);
 	}
 	to{
-		transform: translateX(-100%);
-	} */
-    to {
-        -moz-transform: translateX(-50%);
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
-    }
+		transform: translateX(-50%);
+	}
+	
 }
 
-.contenedor-caja{
-	/* animation: 20s slider infinite linear alternate ; */
-    display: inline-flex;
-    -moz-animation: slider 10s infinite linear;
-    -webkit-animation: slider 10s infinite linear;
-    animation: slider 10s infinite linear;
-}
 
-.contenedor-caja:hover, .contenedor:hover	 {
+
+.contenedor-caja:hover	 {
 	animation-play-state: paused;
 }
 
